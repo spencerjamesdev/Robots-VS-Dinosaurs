@@ -2,6 +2,6 @@
 #needs an attack power
 
 class Weapon_Class:
-    def __init__(self):
+    def __init__(self, weapon_name, weapon_attack_power):
         self.weapon_name = " "
-        self.attack_power = 10
+        self.weapon_attack_power = 0
