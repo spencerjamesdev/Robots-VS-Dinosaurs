@@ -6,12 +6,13 @@ class Robot:
     def __init__(self, robot_name):
         self.robot_name = " "
         self.robot_health = 100
-        self.Weapon("Ray-Gun", 20)
+        self.robot_weapon = Weapon("Ray-Gun", 20)
 
 
     def robot_attack(self, dinosaur):
         dinosaur.dino_health - self.Weapon.weapon_attack_power
 
-    
-    
+robot_1 = Robot("Rob")
+robot_2 = Robot("Alexa")
+robot_3 = Robot("Siri")  
 
