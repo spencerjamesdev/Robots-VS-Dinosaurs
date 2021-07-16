@@ -1,9 +1,12 @@
-#Robot needs to have a name and health
+from weapon_class import Weapon
 
-class Robot_Class:
-    def __init__(self, robot_name, robot_health):
+
+#Robot needs to have a name and health
+class Robot:
+    def __init__(self, robot_name):
         self.robot_name = " "
-        self.robot_health = 0
+        self.robot_health = 100
+        self.Weapon("Ray-Gun", 20)
 
     
     

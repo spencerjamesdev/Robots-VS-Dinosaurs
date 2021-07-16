@@ -12,5 +12,5 @@ class Herd:
 
 
     def create_herd(self):
-        self.dino_list =[dino_1 = ]
+        self.dino_list =[dino_1, dino_2, dino_3]
 

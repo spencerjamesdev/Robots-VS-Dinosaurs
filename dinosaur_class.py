@@ -1,6 +1,6 @@
 #dinosaurs need an object for name, health and attack power
 
-class Dinosaur_Class:
+class Dinosaur:
     def __init__(self, dino_name, dino_attack_power, dino_health):
         self.dino_name = " "
         self.dino_attack_power = 0

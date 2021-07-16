@@ -1,0 +1,1 @@
+#this class is going to import from the dino class and robot class
