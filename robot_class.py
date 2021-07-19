@@ -10,9 +10,6 @@ class Robot:
 
 
     def robot_attack(self, dinosaur):
-        dinosaur.dino_health - self.Weapon.weapon_attack_power
-
-robot_1 = Robot("Rob")
-robot_2 = Robot("Alexa")
-robot_3 = Robot("Siri")  
+        dinosaur.dino_health = dinosaur.dino_health- self.Weapon.weapon_attack_power
+ 
 
